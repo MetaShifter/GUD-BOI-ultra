@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="publisher" content="blankdots.com" />
+    <meta name="author" content="Stefan Negru" />
+    <meta name="keywords" content="personas, template" />
+    <meta name="description" content="Personas Template with microdata" />
+    <meta name="robots" content="noindex,nofollow" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Personas Template</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Personas Template</h1>
+      <span id="logo"
+        ><a href="http://www.w3.org/html/logo/">
+          <img
+            src="http://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png"
+            width="83"
+            height="32"
+            alt="HTML5 Powered with CSS3 / Styling, and Semantics"
+            title="HTML5 Powered with CSS3 / Styling, and Semantics"
+          /> </a
+      ></span>
+    </header>
+    <section>
+      <h1 class="hidden">Personas Section (minimum 4 personas recommended)</h1>
+      <article itemscope itemtype="http://schema.org/Person" class="persona">
+        <div class="personaInfo">
+          <h3>Type: Primary</h3>
+          <figure>
+            <img
+              itemprop="image"
+              src="/html_personas/amelia.jpg"
+              width="150px"
+              height="150px"
+              alt="persona image"
+            />
+          </figure>
+          <div class="personaBackground">
+            <h4>
+              Name: <span itemprop="givenName">Amelia</span>
+              <span itemprop="familyName">Johnson</span>
+            </h4>
+            <h5>Background</h5>
+            <ul>
+              <li>
+                <strong>Date of Birth:</strong>
+                <time itemprop="birthDate" datetime="1990-05-14"
+                  >05/14/1990</time
+                >
+              </li>
+              <li>
+                <strong>Gender:</strong>
+                <span itemprop="gender">Female</span>
+              </li>
+              <li
+                itemprop="location"
+                itemscope
+                itemtype="http://schema.org/Place"
+              >
+                <strong>Location:</strong>
+                <span itemprop="name">California, USA</span>
+              </li>
+              <li
+                itemprop="worksFor"
+                itemscope
+                itemtype="http://schema.org/Organization"
+              >
+                <strong>Work place:</strong>
+                <span itemprop="name">Tech Innovations</span>,
+                <span itemprop="jobTitle">Product Manager</span>
+              </li>
+              <li
+                itemprop="alumniOf"
+                itemscope
+                itemtype="http://schema.org/EducationalOrganization"
+              >
+                <strong>School:</strong>
+                <span itemprop="name">Palo Alto High School</span>
+              </li>
+              <li><strong>Technology Level:</strong> Advanced user</li>
+            </ul>
+          </div>
+        </div>
+        <div class="personaDetails">
+          <div class="detailsLeft">
+            <div class="leftGroup">
+              <h5>Main Points</h5>
+              <p>
+                Amelia has been a dog owner for over 5 years and is passionate
+                about utilizing technology to enhance her pet's training and
+                well-being. She prefers apps that offer detailed progress
+                tracking and personalized training recommendations. Her busy
+                schedule as a Product Manager requires efficiency in managing
+                her time, making features like scheduling and reminders
+                particularly valuable.
+              </p>
+              <ul>
+                <li>
+                  Experienced in leveraging technology for personal and
+                  professional use;
+                </li>
+                <li>
+                  Seeks efficiency in training and health management for her
+                  pet;
+                </li>
+                <li>
+                  Values community support and expert advice for pet care.
+                </li>
+              </ul>
+            </div>
+            <div class="leftGroup">
+              <h5>Goals</h5>
+              <ul>
+                <li>
+                  Practical Goals: Efficiently manage her dog's training and
+                  health within her busy schedule.
+                </li>
+                <li>
+                  Personal Goals: Strengthen the bond with her dog through
+                  effective training and care.
+                </li>
+                <li>
+                  Business Goals: Utilize the latest technology to enhance
+                  personal and professional life balance.
+                </li>
+              </ul>
+            </div>
+            <div class="leftGroup">
+              <h5>Frustrations and Pain Points</h5>
+              <ul>
+                <li>
+                  Finding time for regular, effective dog training sessions;
+                </li>
+                <li>
+                  Tracking the dog's health and training progress efficiently;
+                </li>
+                <li>
+                  Lack of personalized training programs based on her dog's
+                  unique needs.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div itemprop="description" class="detailsRight">
+            <h5>Detailed Description</h5>
+            <p>
+              Amelia's practical goal is to utilize innovative tools for
+              precise, engaging training sessions; her personal goal centers on
+              fostering a deep, understanding bond with Max through consistent,
+              effective training practices. Her previous experiences with
+              various training apps have honed her skills, making her an avid
+              user of GUD BOI's features, particularly valuing its ability to
+              provide structured, rewarding training experiences for both her
+              and Max. Through Amelia's story, we glimpse the impact of a
+              dedicated trainer's commitment to integrating cutting-edge
+              technology for the ultimate benefit of pet care and training.
+            </p>
+            <h5>References</h5>
+            <ul>
+              <li>
+                Fluid
+                <a href="http://wiki.fluidproject.org/display/fluid/Personas"
+                  >Personas</a
+                >;
+              </li>
+              <li>
+                An introduction to personas and
+                <a href="http://www.steptwo.com.au/papers/kmc_personas"
+                  >how to create them</a
+                >;
+              </li>
+              <li itemscope itemtype="http://schema.org/Book">
+                <span itemprop="name"
+                  ><a
+                    href="http://www.amazon.com/Persona-Lifecycle-Throughout-Interactive-Technologies/dp/0125662513/ref=pd_bbs_sr_1?ie=UTF8&amp;s=books&amp;qid=1240423894&amp;sr=8-1"
+                    class="external-link"
+                    rel="nofollow"
+                    >The Persona Lifecycle, Keeping People in Mind Throughout
+                    Product Design</a
+                  ></span
+                >,
+                <span itemprop="author">John Pruitt &amp; Tamara Adlin</span>;
+              </li>
+              <li>
+                This version of Personas Template includes microdata markup
+                using <a href="schema.org/">schema.org Schemas</a>.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="personaScenarios">
+          <h5>Scenarios</h5>
+          <p>
+            Scenario 1: Before her morning routine begins, Amelia uses the GUD
+            BOI app for a focused training session with Max. Today, they're
+            working on "heel" commands. The app's AR feature overlays guidance
+            directly into their living room, showing Amelia how to adjust Max's
+            position for optimal learning. As they practice, the app records
+            Max's responsiveness, providing instant feedback that helps Amelia
+            correct her technique on the fly. This technology makes each session
+            more effective, enabling Max to master commands faster than ever
+            before.
+          </p>
+          <p>
+            Scenario 2: During a weekend, Amelia decides to review her dog's
+            health card on the GUD BOI app and realizes it's time for a vaccine
+            update. She uses the app to schedule an appointment with her
+            veterinary clinic directly, without having to switch between
+            multiple platforms.
+          </p>
+        </div>
+        <div class="otherDetails">
+          <h5>Other Details</h5>
+          <p>
+            Amelia is also interested in participating in community events
+            organized through the app to meet other dog owners and share
+            experiences.
+          </p>
+        </div>
+      </article>
+
+      <article itemscope itemtype="http://schema.org/Person" class="persona">
+        <div class="personaInfo">
+          <h3>Type: Secondary</h3>
+          <figure>
+            <img
+              itemprop="image"
+              src="/html_personas/jordan.jpg"
+              width="150px"
+              height="150px"
+              alt="persona image"
+            />
+          </figure>
+          <div class="personaBackground">
+            <h4>
+              Name: <span itemprop="givenName">Jordan</span>
+              <span itemprop="familyName">Smith</span>
+            </h4>
+            <h5>Background</h5>
+            <ul>
+              <li>
+                <strong>Date of Birth:</strong>
+                <time itemprop="birthDate" datetime="1985-08-19"
+                  >08/19/1985</time
+                >
+              </li>
+              <li>
+                <strong>Gender:</strong>
+                <span itemprop="gender">Male</span>
+              </li>
+              <li
+                itemprop="location"
+                itemscope
+                itemtype="http://schema.org/Place"
+              >
+                <strong>Location:</strong>
+                <span itemprop="name">Denver, Colorado</span>
+              </li>
+              <li
+                itemprop="worksFor"
+                itemscope
+                itemtype="http://schema.org/Organization"
+              >
+                <strong>Work place:</strong>
+                <span itemprop="name">Colorado Hospital</span>,
+                <span itemprop="jobTitle">Neurosurgeon</span>
+              </li>
+              <li
+                itemprop="alumniOf"
+                itemscope
+                itemtype="http://schema.org/EducationalOrganization"
+              >
+                <strong>School:</strong>
+                <span itemprop="name"
+                  >University of Colorado School of Medicine
+                </span>
+              </li>
+              <li><strong>Technology Level:</strong> Intermediate</li>
+            </ul>
+          </div>
+        </div>
+        <div class="personaDetails">
+          <div class="detailsLeft">
+            <div class="leftGroup">
+              <h5>Main Points</h5>
+              <p>
+                Jordan, a neurosurgeon at Colorado Hospital, juggles a demanding
+                career with the joys and responsibilities of being a dog owner.
+                Despite his busy schedule, he is committed to providing the best
+                care and training for his dog. He values efficiency and
+                effectiveness in tools that help manage his time and his dog's
+                needs.
+              </p>
+              <ul>
+                <li>
+                  Seeks quick, effective training solutions that can be
+                  integrated into a busy lifestyle;
+                </li>
+                <li>
+                  Values tools that help organize and manage his dog's health
+                  and appointments;
+                </li>
+                <li>
+                  Looks for ways to engage with his dog within limited time
+                  frames.
+                </li>
+              </ul>
+            </div>
+            <div class="leftGroup">
+              <h5>Goals</h5>
+              <ul>
+                <li>
+                  Practical Goals: Find time-efficient training methods and
+                  health management tools for his dog.
+                </li>
+                <li>
+                  Personal Goals: Ensure his dog is well-trained and healthy,
+                  despite his hectic schedule.
+                </li>
+                <li>
+                  Business Goals: Maintain high performance at work while
+                  managing personal responsibilities.
+                </li>
+              </ul>
+            </div>
+            <div class="leftGroup">
+              <h5>Frustrations and Pain Points</h5>
+              <ul>
+                <li>
+                  Struggles to find time for regular, comprehensive training
+                  sessions;
+                </li>
+                <li>
+                  Finds it challenging to keep track of his dog's health records
+                  and appointments;
+                </li>
+                <li>
+                  Feels guilty about not spending enough quality time with his
+                  dog.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div itemprop="description" class="detailsRight">
+            <h5>Detailed Description</h5>
+            <p>
+              Jordan Smith represents the busy, yet dedicated dog owner who
+              strives to balance professional obligations with the demands of
+              pet parenthood. Living in Denver, Colorado, Jordan's role as a
+              neurosurgeon at Colorado Hospital often requires overtime and
+              emergency situations, limiting the time he can dedicate to
+              training and caring for his dog. However, his commitment to his
+              pet's well-being is unwavering.
+            </p>
+            <p>
+              Discovering the GUD BOI app offered Jordan a solution that aligns
+              with his lifestyle. The app's concise training modules and
+              automated health management features allow him to make the most of
+              his limited time, ensuring his dog receives consistent training
+              and care. Jordan's story is one of a modern professional
+              navigating the challenges of balancing work, life, and pet
+              ownership, demonstrating how technology can bridge the gap between
+              the desire for pet companionship and the realities of a busy life.
+            </p>
+            <h5>References</h5>
+            <ul>
+              <li>
+                Fluid
+                <a href="http://wiki.fluidproject.org/display/fluid/Personas"
+                  >Personas</a
+                >;
+              </li>
+              <li>
+                An introduction to personas and
+                <a href="http://www.steptwo.com.au/papers/kmc_personas"
+                  >how to create them</a
+                >;
+              </li>
+              <li itemscope itemtype="http://schema.org/Book">
+                <span itemprop="name"
+                  ><a
+                    href="http://www.amazon.com/Persona-Lifecycle-Throughout-Interactive-Technologies/dp/0125662513/ref=pd_bbs_sr_1?ie=UTF8&amp;s=books&amp;qid=1240423894&amp;sr=8-1"
+                    class="external-link"
+                    rel="nofollow"
+                    >The Persona Lifecycle, Keeping People in Mind Throughout
+                    Product Design</a
+                  ></span
+                >,
+                <span itemprop="author">John Pruitt &amp; Tamara Adlin</span>;
+              </li>
+              <li>
+                This version of Personas Template includes microdata markup
+                using <a href="schema.org/">schema.org Schemas</a>.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="personaScenarios">
+          <h5>Scenarios</h5>
+          <p>
+            Scenario 1: Before heading to work, Jordan uses the GUD BOI app to
+            conduct a quick 10-minute training session with his dog. The app
+            suggests activities that fit into his time constraints while
+            effectively teaching new commands.
+          </p>
+          <p>
+            Scenario 2: During a lunch break, Jordan reviews his dog's health
+            card on the GUD BOI app and schedules an upcoming vet appointment,
+            appreciating the convenience of managing his dog's health care in a
+            few simple taps.
+          </p>
+        </div>
+        <div class="otherDetails">
+          <h5>Other Details</h5>
+          <p>
+            Jordan leverages the community feature of the GUD BOI app to connect
+            with other busy dog owners, sharing tips and advice on managing pet
+            care alongside a demanding career. This network of support has
+            become an invaluable resource for him, offering both practical
+            advice and moral support.
+          </p>
+        </div>
+      </article>
+
+      <article itemscope itemtype="http://schema.org/Person" class="persona">
+        <div class="personaInfo">
+          <h3>Type: Supplemental</h3>
+          <figure>
+            <img
+              itemprop="image"
+              src="/html_personas/taylor.jpg"
+              width="150px"
+              height="150px"
+              alt="persona image"
+            />
+          </figure>
+          <div class="personaBackground">
+            <h4>
+              Name: <span itemprop="givenName">Taylor</span>
+              <span itemprop="familyName">Nguyen</span>
+            </h4>
+            <h5>Background</h5>
+            <ul>
+              <li>
+                <strong>Date of Birth:</strong>
+                <time itemprop="birthDate" datetime="1995-07-15"
+                  >07/15/1995</time
+                >
+              </li>
+              <li>
+                <strong>Gender:</strong>
+                <span itemprop="gender">Female</span>
+              </li>
+              <li
+                itemprop="location"
+                itemscope
+                itemtype="http://schema.org/Place"
+              >
+                <strong>Location:</strong>
+                <span itemprop="name">Austin, Texas</span>
+              </li>
+              <li
+                itemprop="worksFor"
+                itemscope
+                itemtype="http://schema.org/Organization"
+              >
+                <strong>Work place:</strong>
+                <span itemprop="name">CommUnityCare Health Centers</span>,
+                <span itemprop="jobTitle">Social Worker</span>
+              </li>
+              <li
+                itemprop="alumniOf"
+                itemscope
+                itemtype="http://schema.org/EducationalOrganization"
+              >
+                <strong>School:</strong>
+                <span itemprop="name">The University of Texas at Austin </span>
+              </li>
+              <li>
+                <strong>Technology Level:</strong> Beginner to Intermediate
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="personaDetails">
+          <div class="detailsLeft">
+            <div class="leftGroup">
+              <h5>Main Points</h5>
+              <p>
+                Taylor recently adopted their first dog, a decision filled with
+                excitement and a bit of anxiety. As a new pet owner, Taylor
+                seeks guidance and support in training and caring for their
+                furry friend. They are keen on using technology to help navigate
+                the challenges of pet ownership, despite not being very
+                tech-savvy.
+              </p>
+              <ul>
+                <li>
+                  Eager to learn about dog training and health management;
+                </li>
+                <li>Values clear, simple instructions and visual aids;</li>
+                <li>Looking for a supportive community of dog owners.</li>
+              </ul>
+            </div>
+            <div class="leftGroup">
+              <h5>Goals</h5>
+              <ul>
+                <li>
+                  Practical Goals: Learn the basics of dog care and training.
+                </li>
+                <li>
+                  Personal Goals: Build a strong, loving relationship with their
+                  new dog.
+                </li>
+                <li>
+                  Social Goals: Connect with other dog owners for support and
+                  advice.
+                </li>
+              </ul>
+            </div>
+            <div class="leftGroup">
+              <h5>Frustrations and Pain Points</h5>
+              <ul>
+                <li>
+                  Overwhelmed by the amount of information available online;
+                </li>
+                <li>Uncertain about the reliability of dog care resources;</li>
+                <li>
+                  Needs a straightforward, easy-to-use platform for pet care
+                  guidance.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div itemprop="description" class="detailsRight">
+            <h5>Detailed Description</h5>
+            <p>
+              Taylor's journey into pet ownership begins with a blend of
+              enthusiasm and apprehension. Living in Austin, Texas, they are
+              determined to provide the best care for their newly adopted dog
+              but feel daunted by the responsibility. The GUD BOI app emerges as
+              a beacon of hope, offering Taylor an intuitive guide to navigating
+              the nuances of dog training and health management. Through the
+              app, Taylor finds not just information but also a welcoming
+              community of experienced dog owners, making their transition into
+              pet parenthood a journey of learning, growth, and connection.
+            </p>
+            <h5>References</h5>
+            <ul>
+              <li>
+                Fluid
+                <a href="http://wiki.fluidproject.org/display/fluid/Personas"
+                  >Personas</a
+                >;
+              </li>
+              <li>
+                An introduction to personas and
+                <a href="http://www.steptwo.com.au/papers/kmc_personas"
+                  >how to create them</a
+                >;
+              </li>
+              <li itemscope itemtype="http://schema.org/Book">
+                <span itemprop="name"
+                  ><a
+                    href="http://www.amazon.com/Persona-Lifecycle-Throughout-Interactive-Technologies/dp/0125662513/ref=pd_bbs_sr_1?ie=UTF8&amp;s=books&amp;qid=1240423894&amp;sr=8-1"
+                    class="external-link"
+                    rel="nofollow"
+                    >The Persona Lifecycle, Keeping People in Mind Throughout
+                    Product Design</a
+                  ></span
+                >,
+                <span itemprop="author">John Pruitt &amp; Tamara Adlin</span>;
+              </li>
+              <li>
+                This version of Personas Template includes microdata markup
+                using <a href="schema.org/">schema.org Schemas</a>.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="personaScenarios">
+          <h5>Scenarios</h5>
+          <p>
+            Scenario 1: Faced with the challenge of teaching their dog to sit,
+            Taylor turns to the GUD BOI app, following an interactive guide that
+            breaks down the training process into manageable steps. The visual
+            aids and real-time feedback make learning engaging for both Taylor
+            and their dog.
+          </p>
+          <p>
+            Scenario 2: Taylor uses the app to track their dog's vaccination
+            schedule and dietary needs, appreciating the convenience of having
+            all this information in one place. They also find comfort in the
+            community section, where they can share updates and seek advice from
+            experienced dog owners.
+          </p>
+        </div>
+        <div class="otherDetails">
+          <h5>Other Details</h5>
+          <p>
+            As Taylor embarks on this new journey with their dog, they are
+            grateful for the GUD BOI app's role in easing their initial fears
+            and uncertainties, transforming them into a confident and informed
+            pet owner.
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <footer id="footer">
+      <span id="license"
+        ><a href="http://creativecommons.org/licenses/by/3.0/"
+          ><img
+            alt="Creative Commons License"
+            style="border-width: 0"
+            src="http://i.creativecommons.org/l/by/3.0/80x15.png" /></a
+      ></span>
+    </footer>
+  </body>
+</html>
