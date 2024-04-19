@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GUDBOI (Dog training and health app)</title>
+    <link rel="stylesheet" href="scholarly.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>GUDBOI (Dog training and health app)</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#abstract">Abstract</a></li>
+        
+          <li><a href="#introducere">1. Introduction</a></li>
+        <ul>
+          <li><a href="#scopul-aplicatiei">1.1 App purpose</a></li>
+          <li><a href="#public-tinta">1.2 Target audience</a></li>
+        </ul>
+        <li><a href="#descriere-generala">2. Functionalities</a></li>
+        <ul>
+          <li><a href="#training">2.1 Training</a></li>
+          <li><a href="#feeding">2.2 Feeding</a></li>
+          <li><a href="#doctor">2.3 Veterinary</a></li>
+        </ul>
+        <li><a href="#design-patterns">3. Interaction design patterns</a></li>
+        <ul>
+          <li><a href="#wizard">3.1 Wizard</a></li>
+          <li><a href="#notifications">3.2 Notifications</a></li>
+          <li><a href="#device-integration">3.3 Device integration</a></li>
+        </ul>
+        <li><a href="#design-decisions">4. Design decisions</a></li>
+        <ul>
+          <li><a href="#mobile">4.1 Mobile</a></li>
+          <li><a href="#smartwatch">4.2 Smartwatch</a></li>
+        </ul>
+        <li>
+          <a href="#interfete-externe">5. Interfaces</a>
+        </li>
+
+
+        <li><a href="#autori">6. Authors</a></li>
+      </ul>
+    </nav>
+
+    <section id="abstract">
+      <h2>Abstract</h2>
+      <div>
+        This report presents the GUDBOI application, which was created as a 2024 HCI Project at FII UAIC.
+      </div>
+    </section>
+
+    <section id="introducere">
+      <h2>Introduction</h2>
+      <p>
+        In today's world, due to work and lack of time, dog lovers face several issues:
+        inability to pay close attention to their pets, forgetting regular check-ups,
+        morning rush causing feeding issues, lack of training knowledge etc.
+    
+      </p>
+      <p>
+        The GUDBOI app proposes an innovative new method of pet management, including
+        notifications, automatic feeding, health tracking and training courses, 
+        ensuring proper nutrition, tracking and increasing the overall life quality
+        of users' beloved dogs.
+      </p>
+     
+    </section>
+
+    <section id="scopul-aplicatiei">
+      <h3>1.1 App purpose</h3>
+      <p>
+        The purpose of the app is making pet ownership and home training easier and 
+        easing the added stress of surpise issues owners tend to encounter when missing 
+        the subtle signs their dogs are showing.
+      </p>
+    </section>
+
+    <section id="public-tinta">
+      <h3>1.2 Target audience</h3>
+      <p>
+        The target audience consists of working dog owners who wish to keep track of their 
+        dogs' health(vet appointments, appetite), training, trick knowledge and feeding
+        (portion sizes, feeding time) much easier.
+        
+      </p>
+    </section>
+
+   
+    <section id="descriere-generala">
+      <h2>2. Functionalities</h2>
+    </section>
+
+    <section id="training">
+      <h3>2.1 Training</h3>
+      <p>
+        The training functionality allows the user to keep track of their dog's 
+        abilities and trick knowledge. For each of the training seessions, the app offers
+        step by step tried and true training methods in order to teach the pet in the most 
+        efficient way.
+        The app also offers a <b>record</b> option in order to be able to watch the pet's progress later on.
+      </p>
+    </section>
+
+    <section id="feeding">
+      <h3>2.2 Feeding </h3>
+      <p>
+        The feeding functionality works based on user input of their dog's:
+        <ul>
+          <li>breed</li>
+          <li>weight</li>
+          <li>age</li>
+          <li>food type</li>
+          <li>feeding times</li>
+        </ul> 
+        Based on these, the automatic feeder that the app connects to will dispense
+        the recommended amount of food at the pre determined feeding times. The integrated
+        scale will also be able to determine the amound of food the pet has eaten and keep
+        records of that in the dog's profile.
+      </p>
+    </section>
+
+    <section id="doctor">
+      <h3>2.3 Veterinary</h3>
+      <p>
+        This functionality will allow users to:
+        <ul>
+          <li>Keep track of regular vet check-ups</li>
+          <li>Receive notifications if their dog appetite is abnormal</li>
+          <li>Receive notifications in case a vet visit is recommended</li>
+          <li>Keep track of the dog's medical records</li>
+          <li>Keep track of the dog's prescriptions</li>
+        </ul> 
+      </p>
+    </section>
+
+    <section id="descriere-generala">
+      <h2>3. Interaction design patterns</h2>
+    </section>
+
+    <section id="wizard">
+      <h3>3.1 Wizard</h3>
+      <p>
+        The wizard design pattern refers to series of step by step actions that users are
+        prompted to follow. In this case, the steps represent the instructions that the user
+        is given in order to teach their dog a new ability/trick. This will ensure a much
+        easier and guided training method so that anyone can so it at home, without the need
+        for a professional dog trainer or extra lessons.
+      </p>
+    </section>
+
+    <section id="notifications">
+      <h3>3.2 Notifications </h3>
+      <p>
+        This design pattern is used in order to alert users of important events, appointments
+        or tasks. When it comes to the GUDBOY app, notifications are used as reminders for vet appointments,
+        announcements when the dog has been fed, vet appointment suggestion or training time reminder. This 
+        ensures that even when the user does not actively open the app, they receive information regarding
+        their dog's well being.
+        
+      </p>
+    </section>
+
+    <section id="device-integration">
+      <h3>3.3 Device integration</h3>
+      <p>
+        This design pattern allows the interaction with an app through separate devices. In the case of
+        this app, the devices are smartphones and smartwatches. While the smartphone allows for 
+        more freedom within the app, the watch allows the user to access the most essential functionalities 
+        quickly. This way, the users can seamlessly use the application, keeping all data updated on all devices,
+        without the need to restart or redo an action when switching from the phone to the app and vice-versa.
+      </p>
+    </section>
+    
+    <section id="#design-decisions">
+      <h2>4. Design decisions</h2>
+    </section>
+
+    <section id="mobile">
+      <h3>4.1 Mobile </h3>
+      <p>
+        Regarding the mobile design of the app, it allows the most freedom out of the 2 platforms
+        where it is available.
+      </p>
+      <p>
+        This is the platform where most of the active interaction with the app is happening. The user
+        is able to do multiple actions, such as:
+        <ul>
+          <li>Input data about their dog</li>
+          <li>Record the training sessions via the phone camera</li>
+          <li>Keep and see the medical records of the animal</li>
+          <li>Keep track of the dog's prescriptions</li>
+          <li>Record training sessions</li>
+          <li>View past training sessions</li>
+        </ul> 
+      </p>
+    </section>
+    <section id="smartwatch">
+      <h3>4.2 Smartwatch </h3>
+      <p>
+        Regarding the watch design of the app, it acts as a extension that makes the main mobile app
+        easier to use.
+      </p>
+      <p>
+        This platform allows the user to continue the phone actions without needing to keep the phone on
+        hand at all times. These actions include:
+        <ul>
+          <li>Receiving notifications</li>
+          <li>Selecting the desired training session you want to start</li>
+          <li>Starting/stoping the training session</li>
+          <li>Sending treat thorugh the automatic feeder</li>
+          <li>Viewing automatic feeder live camera</li>
+          <li>Real time feedback about training command success</li>
+        </ul> 
+      </p>
+    </section>
+
+   
+
+ 
+
+    <section id="autori">
+      <h2>6. Autori</h2>
+      <ul>
+        <li>Cohman Teodora</li>
+        <li>Mihăiță Andrei</li>
+        <li>Sandu Smaranda</li>
+      </ul>
+    </section>
+
+    <button class="my-button" onclick="scrollToTop()" id="back-to-up">
+      <div class="long-arrow-left"></div>
+    </button>
+  </body>
+
+  <script>
+    window.onscroll = () => {
+      toggleTopButton();
+    };
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    function toggleTopButton() {
+      if (
+        document.body.scrollTop > 20 ||
+        document.documentElement.scrollTop > 20
+      ) {
+        document.getElementById("back-to-up").classList.remove("d-none");
+      } else {
+        document.getElementById("back-to-up").classList.add("d-none");
+      }
+    }
+  </script>
+</html>

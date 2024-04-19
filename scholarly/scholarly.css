@@ -1,0 +1,74 @@
+body {
+    width: 100vw;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 98%;
+    grid-gap: 10px;
+  }
+  
+  .interface-page {
+    text-align: center;
+    border: 2px solid;
+    border-color: black;
+  }
+  
+  .interface-page p {
+    text-align: justify;
+    padding: 5px;
+  }
+  
+  .interface-page img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  body {
+    margin-top: 3cm;
+    padding-top: 3cm;
+    max-width: 22cm;
+    line-height: 1.7;
+    margin: auto;
+    color: #03001c;
+  }
+  a:visited {
+    color: #037ef3;
+  }
+  a {
+    color: #037ef3;
+  }
+  
+  .my-button {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    padding: 1.3rem 1.3rem;
+    border: 1px solid transparent;
+    color: #fff;
+    background-color: #1a8f0740;
+    border-color: #1a8f0740;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    transform: translate(50%, 50%);
+  }
+  
+  .long-arrow-left {
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+  }
+  
+  .long-arrow-left {
+    transform: rotate(45deg);
+  }
+  
