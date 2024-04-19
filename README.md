@@ -1,5 +1,5 @@
 # GUD-BOI-ultra
-
+Project delivered by: Cohman Teodora 3B5, Mihăiță Andrei 3B5, Sandu Smaranda 3B3
 Deliverables and where to find them:
 1. HTML5 persona documents - repo
 2. Research tactics ( competitve analysis, pricing strategies, SWOT analysis, Lean Canvas ) - figma JAM
