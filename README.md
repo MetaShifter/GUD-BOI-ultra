@@ -10,3 +10,5 @@ Deliverables and where to find them:
 
 <h1>Figma Jam</h1> 
 > https://www.figma.com/file/DakgeXetvpB0Ygs5XG6ciO/Goodboi-JAM?type=whiteboard&node-id=0%3A1&t=TRVMUHMkRTGc9Khj-1
+
+!!!Disclaimer: the persona profile pictures were generated with DALL-E 3 and the ideas for the personas were brainstormed with the help of Google Gemini Ultra 1.0
