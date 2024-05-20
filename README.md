@@ -16,3 +16,5 @@ Deliverables and where to find them:
 <h1>Figma Design File for F component</h1>
 > https://www.figma.com/file/tKtqEbGNxHVgMTjn6t0nSK/gubdoi_final?type=design&node-id=0%3A1&mode=design&t=mtW1i69I3JK44iZB-1
 
+<h1>Final Video + Presentation</h1>
+> https://drive.google.com/drive/folders/1QbGXnpZ4A0zJjAtCxwtMkyJ--6a04EDb?usp=sharing
